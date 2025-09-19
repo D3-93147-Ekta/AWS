@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function printMsg(){
+            let number = window.prompt("Enter the number of times to print the message")
+            if(number < 0) console.log("Invalid number") 
+            else{
+                let message = window.prompt("Enter the message")
+                    for(let i=0; i<number; i++){
+                    console.log(message)   
+                }
+            }
+        }
+        printMsg()
+    </script>
+</body>
+</html>
