@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+
+}
+#navbar{
+    background-color: darkblue;
+    height: 7vh;
+}
+#navList{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+color: white;
+gap: 10px;
+}
+#para{
+margin: 7px;
+}
+#home-section{
+    background-color: lightblue;
+    height: 25vh;
+}
+#homeP{
+    font-weight: bold;
+    font-size: small;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#imgDiv{
+    height: 15vh;
+    width: 20vw;
+    gap: 10px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#about-section{
+    background-color: darkblue;
+    height: 40vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#aboutDiv{
+    background-color: gainsboro;
+    height: 40vh;
+}
+#Pabout{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+#aboutImg{
+    padding-left: 10px;
+   height: 22vh;
+   width: 5vw;
+   border-radius: 10px;
+}
+#SunbeamPara{
+    font-size: smaller;
+}
+#imgPDiv{
+    padding-top: 10px;
+    display: flex; 
+}
+#course-section{
+    background-color: darkblue;
+    height: 30vh;
+}
+#courseDiv{
+    background-color: gainsboro;
+    height: 28vh;
+}
+#pCourse{
+    font-weight: bold;
+    font-size: small;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#courseImg{
+    height: 18vh;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+#contact-section{
+    background-color: gainsboro;
+    height: 40vh;
+}
+#Pcontact{
+    font-size: small;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#foot-section{
+    background-color: darkblue;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#para-foot{
+    color: white;
+    font-weight: bold;
+}
+#contact-flex{
+    display: flex;
+}
+.contact-hinjewadi{
+    padding-top: 5px;
+    padding: 12px;
+    font-size: small;
+    color: blue;
+}
+#p-box{
+   width: 25vw;
+}
