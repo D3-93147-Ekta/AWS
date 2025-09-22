@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        table{
+            text-align: center;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+        }
+        .input{
+            border-width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h2><u>Calculator</u></h2>
+    <div id="container">
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>Enter Number 1</td>
+                    <td><input class="input" id="num1" type="number"></td>
+                </tr>
+                <tr>
+                    <td>Enter Number 2</td>
+                    <td><input class="input" id="num2" type="number"></td>
+                </tr>
+                <tr>
+                    <td>Result</td>
+                    <td><input class="input" id="result" type="number"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <button onclick="add()">Addition</button>
+                        <button onclick="sub()">Substraction</button>
+                        <button onclick="mul()">Multiplication</button>
+                        <button onclick="div()">Division</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="a6_q2.js"></script>
+</body>
+</html>
